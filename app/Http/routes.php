@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Basic Route Test
+Route::get('foo', function () {
+    return 'Hello World';
+});
